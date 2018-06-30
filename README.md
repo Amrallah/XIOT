@@ -20,7 +20,7 @@ You can directly use the uploaded proteus project for simulation and the XIOT.el
 # Issues
 * There was some offset in temperature readings caused by the inaccuracy of the sensor.
 * The function ADC_readChannel can be used with any sensor, but the ADC_tempAsString depends on the sensor (should be LM35 only) and depends on the way you connect it, should use the connection in datasheet (the way I connected it in proteus project attached).
-* If you want to use another external interrupt or connect the LED to other pins you should do some minor edits in the code.
+* If you want to use another external interrupt you should do some minor edits in the code.
 
 
 
