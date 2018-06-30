@@ -3,7 +3,7 @@
 * Your program can send continuous serial data comes from temperature sensor with 3 second rate at the same time.
 
 # Instructions for setting the app
-You can directly use the uploaded proteus project for simulation and the XIOT.elf file as the microcontroller program.
+You can directly use the uploaded proteus project for simulation and the XIOT.elf file as the microcontroller program or design your own simulation project following these instructions:
 * Use an ATmega16 microcontroller with 1MHZ frequency.
 * Connect PD3 to your switch as we're using external interrupt 1.
 * Connect your LED to PA7, if you want to use another port then you should edit it in Interrupt 1 ISR and in main.
@@ -19,7 +19,7 @@ You can directly use the uploaded proteus project for simulation and the XIOT.el
 
 # Issues
 * There was some offset in temperature readings caused by the inaccuracy of the sensor.
-* The function ADC_readChannel can be used with any sensor, but the ADC_tempAsString depends on the sensor(should be LM35 only) and depends on the way you connect it, should use the connection in datasheet(the way I connected it in proteus project attached).
+* The function ADC_readChannel can be used with any sensor, but the ADC_tempAsString depends on the sensor (should be LM35 only) and depends on the way you connect it, should use the connection in datasheet (the way I connected it in proteus project attached).
 * If you want to use another external interrupt or connect the LED to other pins you should do some minor edits in the code.
 
 
