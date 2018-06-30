@@ -10,7 +10,7 @@ You can directly use the uploaded proteus project for simulation and the XIOT.el
 * Connect serial monitor receiver to PD1 which is UART transmitter.
 * Connect AREF and AVCC pins to 5V power to adjust analog to digital converter reference voltage.
 * Connect temperature sensor pin2 to PA0 (ADC0) and pin3 to PA1 (ADC1) or you can use different ADC but give it as a parameter for the ADC_tempAsString function called in main.
-* ![alt text](https://preview.ibb.co/mOj27J/Proteus.png)
+![alt text](https://preview.ibb.co/mOj27J/Proteus.png)
 
 # Assumptions made
 * Using ATmega16 microcontroller.
