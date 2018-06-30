@@ -11,8 +11,10 @@ I thought about this task as a mini project, XIOT company is in the industry of 
 * Using github windows application and md files.
 * Combining 4 drivers in one project (external interrupt,ADC,timer,UART).
 * LM35 sensor had different connections, I had an issue in reading -ve temperature until I used LM35 datasheet and found out there's a different connection using diodes to get the -ve readings.
-* 1.![alt text](https://preview.ibb.co/d0xuMd/01.png)
-* 2.![alt text](https://image.ibb.co/mTRAuy/02.png)
+* 1.
+![alt text](https://preview.ibb.co/d0xuMd/01.png)
+* 2.
+![alt text](https://image.ibb.co/mTRAuy/02.png)
 
 # Experience
 * Very good with C language.
